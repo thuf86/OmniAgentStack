@@ -1,0 +1,72 @@
+﻿[
+    {
+        "id":  "anything-llm",
+        "name":  "AnythingLLM",
+        "repository":  "https://github.com/Mintplex-Labs/anything-llm.git",
+        "commit":  "633fc1960914298009134b40c25007cb422c7884",
+        "downloaded_at":  "2026-07-26T15:10:44.7648149-04:00"
+    },
+    {
+        "id":  "autogen",
+        "name":  "AutoGen",
+        "repository":  "https://github.com/microsoft/autogen.git",
+        "commit":  "027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+        "downloaded_at":  "2026-07-26T15:11:04.9571198-04:00"
+    },
+    {
+        "id":  "browser-use",
+        "name":  "Browser Use",
+        "repository":  "https://github.com/browser-use/browser-use.git",
+        "commit":  "0964ad452a9f3fe249042a5ffb235e5f98519b2e",
+        "downloaded_at":  "2026-07-26T15:11:09.5076562-04:00"
+    },
+    {
+        "id":  "crawl4ai",
+        "name":  "Crawl4AI",
+        "repository":  "https://github.com/unclecode/crawl4ai.git",
+        "commit":  "7e801521428ee12509994d39151006f64055ebe3",
+        "downloaded_at":  "2026-07-26T15:11:15.4129647-04:00"
+    },
+    {
+        "id":  "crewai",
+        "name":  "CrewAI",
+        "repository":  "https://github.com/crewAIInc/crewAI.git",
+        "commit":  "1870b444e7f37d21c0899f6ef76c0beef906629d",
+        "downloaded_at":  "2026-07-26T15:12:51.2058539-04:00"
+    },
+    {
+        "id":  "firecrawl",
+        "name":  "Firecrawl",
+        "repository":  "https://github.com/firecrawl/firecrawl.git",
+        "commit":  "ab033afd95b6e7865cf8d955fec359043389f227",
+        "downloaded_at":  "2026-07-26T15:13:05.7682910-04:00"
+    },
+    {
+        "id":  "langflow",
+        "name":  "Langflow",
+        "repository":  "https://github.com/langflow-ai/langflow.git",
+        "commit":  "ce17f022bed0eac943a723b9b6c74a023e819b60",
+        "downloaded_at":  "2026-07-26T15:13:59.1374173-04:00"
+    },
+    {
+        "id":  "localai",
+        "name":  "LocalAI",
+        "repository":  "https://github.com/mudler/LocalAI.git",
+        "commit":  "90355cd44420e0cdbd9b79d7ce763341990a6851",
+        "downloaded_at":  "2026-07-26T15:14:09.2012768-04:00"
+    },
+    {
+        "id":  "mem0",
+        "name":  "Mem0",
+        "repository":  "https://github.com/mem0ai/mem0.git",
+        "commit":  "b357a5a1b03c299ec8229c268e63cfac0f7c6566",
+        "downloaded_at":  "2026-07-26T15:14:17.8892229-04:00"
+    },
+    {
+        "id":  "ragflow",
+        "name":  "RAGFlow",
+        "repository":  "https://github.com/infiniflow/ragflow.git",
+        "commit":  "53e83dcadfef7b88c56648049c9966b5046cd06a",
+        "downloaded_at":  "2026-07-26T15:14:43.7082165-04:00"
+    }
+]

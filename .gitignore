@@ -1,0 +1,15 @@
+﻿# Dependências e arquivos gerados
+**/.env
+**/.env.*
+!**/.env.example
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/dist/
+**/build/
+**/.next/
+**/data/
+**/models/
+*.log
