@@ -9,6 +9,7 @@
 </p>
 
 ---
+
 ## ⭐ Apoie o Projeto
 
 Caso o Omni Agent Stack seja útil para seu ambiente de desenvolvimento, considere deixar uma estrela no repositório.
