@@ -7,7 +7,22 @@
   <img src="https://img.shields.io/badge/OpenAI%20Codex-Supported-black?style=for-the-badge&logo=openai">
   <img src="https://img.shields.io/badge/License-Multiple-yellow?style=for-the-badge">
 </p>
+---
+## ⭐ Apoie o Projeto
 
+Caso o Omni Agent Stack seja útil para seu ambiente de desenvolvimento, considere deixar uma estrela no repositório.
+
+Também visite e apoie os projetos originais utilizados pela plataforma.
+---
+# 🤖 Omni Agent Stack
+
+**Omni Agent Stack** é uma plataforma unificada para instalação, organização e integração de ferramentas open source voltadas a **Agentes de Inteligência Artificial**, **RAG**, **automação**, **memória persistente**, **navegação Web**, **extração de dados** e **execução local de modelos**.
+
+O projeto reúne dez ecossistemas importantes em um único monorepositório, mantendo cada componente isolado em sua própria estrutura e oferecendo scripts interativos para instalação no **Claude Code**, no **OpenAI Codex** ou em ambos.
+
+**Autor:** Romildo — [@thuf86](https://github.com/thuf86)
+🌐 **Website:** https://medium.com/@romildothuf
+---
 ## 📸 Interface de Instalação
 
 <p align="center">
@@ -17,19 +32,7 @@
 <p align="center">
   <img src="./assets/install_02.png" width="100%" alt="Seleção de componentes do Omni Agent Stack">
 </p>
-
-# 🤖 Omni Agent Stack
-
-**Omni Agent Stack** é uma plataforma unificada para instalação, organização e integração de ferramentas open source voltadas a **Agentes de Inteligência Artificial**, **RAG**, **automação**, **memória persistente**, **navegação Web**, **extração de dados** e **execução local de modelos**.
-
-O projeto reúne dez ecossistemas importantes em um único monorepositório, mantendo cada componente isolado em sua própria estrutura e oferecendo scripts interativos para instalação no **Claude Code**, no **OpenAI Codex** ou em ambos.
-
-**Autor:** Romildo — [@thuf86](https://github.com/thuf86)
-🌐 **Website:** https://medium.com/@romildothuf
-📦 **Versão:** 1.0
-
 ---
-
 ## 📌 Visão Geral
 
 Diferente de uma simples coleção de links ou submódulos, o Omni Agent Stack foi desenvolvido para criar um ambiente centralizado e extensível para projetos de Inteligência Artificial.
@@ -45,9 +48,7 @@ O projeto oferece:
 * Separação segura entre dependências Python, Node.js, Go e Docker
 * Registro de origem e commit de cada repositório
 * Estrutura preparada para integrações personalizadas
-
 ---
-
 ## ✨ Principais Recursos
 
 * 🧠 Dez projetos open source de Inteligência Artificial
@@ -64,9 +65,7 @@ O projeto oferece:
 * 🗂️ Estrutura organizada em monorepositório
 * 🔐 Preservação das licenças originais
 * 📍 Registro de origem em `SOURCES.lock.json`
-
 ---
-
 ## 🧩 Projetos Integrados
 
 | Projeto         | Finalidade                                                            |
@@ -81,9 +80,7 @@ O projeto oferece:
 | **LocalAI**     | Execução local de modelos com API compatível com OpenAI               |
 | **Mem0**        | Camada de memória persistente para agentes                            |
 | **RAGFlow**     | Plataforma completa para Retrieval-Augmented Generation               |
-
 ---
-
 ## 🗂️ Estrutura do Projeto
 
 ```text
@@ -113,9 +110,7 @@ OmniAgentStack/
 ├── install-interactive.sh
 └── README.md
 ```
-
 ---
-
 ## ⚙️ Requisitos
 
 ### Windows
@@ -138,9 +133,7 @@ OmniAgentStack/
 * Node.js LTS
 
 Nem todos os componentes exigem todas as dependências. O instalador identifica o método adequado conforme os arquivos encontrados em cada projeto.
-
 ---
-
 ## 📥 Download e Consolidação
 
 ### Windows
@@ -174,9 +167,7 @@ C:\OmniAgentStack
 chmod +x download-and-merge.sh
 ./download-and-merge.sh "$HOME/OmniAgentStack"
 ```
-
 ---
-
 ## 📦 Instalação Interativa
 
 ### Windows
@@ -198,9 +189,7 @@ chmod +x install-interactive.sh
 
 ./install-interactive.sh
 ```
-
 ---
-
 ## 🎛️ Menu Principal
 
 ```text
@@ -215,9 +204,7 @@ chmod +x install-interactive.sh
 5. Fazer tudo: repositórios + Claude + Codex
 0. Sair
 ```
-
 ---
-
 ## 📚 Menu de Componentes
 
 ```text
@@ -236,9 +223,7 @@ chmod +x install-interactive.sh
 ```
 
 Cada componente pode ser preparado individualmente ou em conjunto.
-
 ---
-
 ## 🤖 Integração com Claude Code
 
 Ao selecionar a instalação para Claude Code, os arquivos são copiados para:
@@ -261,9 +246,7 @@ Cada projeto possui:
 * Regras para preservação da arquitetura upstream
 * Orientações para execução de testes
 * Regras para proteção de credenciais e segredos
-
 ---
-
 ## 🧠 Integração com OpenAI Codex
 
 Ao selecionar a instalação para Codex, os arquivos são copiados para:
@@ -279,9 +262,7 @@ Linux:
 ```
 
 O arquivo `AGENTS.md` fornece instruções permanentes para atuação dentro do monorepositório.
-
 ---
-
 ## 🔧 Estratégia de Instalação
 
 O instalador identifica automaticamente o método mais seguro disponível.
@@ -312,9 +293,7 @@ O instalador identifica os gerenciadores com base nos lockfiles:
 * sem lockfile → npm install
 
 Isso evita misturar as dependências dos diferentes projetos na raiz do monorepositório.
-
 ---
-
 ## 🧱 Arquitetura
 
 Os projetos oficiais são mantidos dentro de:
@@ -336,9 +315,7 @@ orchestrator/
 ```
 
 Essa separação reduz o acoplamento e facilita futuras atualizações dos componentes.
-
 ---
-
 ## 🔄 Atualizações
 
 Cada download registra:
@@ -355,9 +332,7 @@ SOURCES.lock.json
 ```
 
 O arquivo permite rastrear exatamente qual versão de cada projeto foi incorporada ao monorepositório.
-
 ---
-
 ## 🛡️ Segurança
 
 * Nunca armazene tokens, senhas ou chaves no Git
@@ -367,9 +342,7 @@ O arquivo permite rastrear exatamente qual versão de cada projeto foi incorpora
 * Utilize apenas modelos, extensões e imagens confiáveis
 * Verifique as permissões de arquivos e volumes
 * Execute automações Web apenas em ambientes autorizados
-
 ---
-
 ## 🙏 Créditos e Projetos Originais
 
 O Omni Agent Stack existe graças ao trabalho das comunidades e mantenedores dos projetos abaixo.
@@ -433,15 +406,11 @@ O Omni Agent Stack existe graças ao trabalho das comunidades e mantenedores dos
 * Repositório: [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
 * Organização: InfiniFlow
 * Diretório local: `components/ragflow`
-
 ---
-
 ## ⚖️ Licenciamento
 
 A licença do código original do Omni Agent Stack deve ser definida separadamente das licenças dos projetos incorporados.
-
 ---
-
 ## 📢 Aviso Legal
 
 O Omni Agent Stack:
@@ -453,9 +422,7 @@ O Omni Agent Stack:
 * Atua exclusivamente como ferramenta de agregação, instalação e organização
 
 Todos os nomes, marcas e códigos pertencem aos seus respectivos autores e organizações.
-
 ---
-
 ## 🗺️ Roadmap
 
 * Interface Web unificada
@@ -470,17 +437,7 @@ Todos os nomes, marcas e códigos pertencem aos seus respectivos autores e organ
 * Gerenciamento de modelos locais
 * Perfis de instalação
 * Backup e restauração de configurações
-
 ---
-
-## ⭐ Apoie o Projeto
-
-Caso o Omni Agent Stack seja útil para seu ambiente de desenvolvimento, considere deixar uma estrela no repositório.
-
-Também visite e apoie os projetos originais utilizados pela plataforma.
-
----
-
 <p align="center">
   Desenvolvido por <b>Romildo — thuf86</b><br>
   Construído com respeito e reconhecimento à comunidade open source.
