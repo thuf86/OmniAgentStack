@@ -278,14 +278,6 @@ Caso algum mantenedor deseje qualquer alteração referente aos créditos, estru
 
 ---
 
-# Contribuindo
-
-Pull Requests são bem-vindos.
-
-Para mudanças maiores, abra primeiro uma Issue para discutirmos a proposta.
-
----
-
 # Roadmap
 
 - Interface Web única
