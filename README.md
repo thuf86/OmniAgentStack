@@ -151,41 +151,6 @@ OmniAgentStack/
 Nem todos os componentes exigem todas as dependências. O instalador identifica o método adequado conforme os arquivos encontrados em cada projeto.
 
 ---
-
-## 📥 Download e Consolidação
-
-### Windows
-
-Abra o PowerShell na pasta que contém os scripts:
-
-```powershell
-Set-ExecutionPolicy -Scope Process Bypass
-
-.\download-and-merge.ps1 -Destino "C:\OmniAgentStack"
-```
-
-O script irá:
-
-1. Baixar os dez repositórios oficiais
-2. Armazená-los em `components`
-3. Registrar os commits em `SOURCES.lock.json`
-4. Criar skills e agentes especializados
-5. Remover os repositórios Git internos
-6. Inicializar um único repositório Git na raiz
-
-Para evitar erros relacionados ao limite de tamanho de caminhos do Windows, recomenda-se utilizar um caminho curto, como:
-
-```text
-C:\OmniAgentStack
-```
-
-### Linux
-
-```bash
-chmod +x download-and-merge.sh
-./download-and-merge.sh "$HOME/OmniAgentStack"
-```
----
 ## 📦 Instalação Interativa
 
 ### Windows
@@ -195,7 +160,7 @@ cd "C:\OmniAgentStack"
 
 Set-ExecutionPolicy -Scope Process Bypass
 
-.\install-interactive.ps1
+.\install-omni-agent-stack.ps1
 ```
 
 ### Linux
@@ -203,9 +168,9 @@ Set-ExecutionPolicy -Scope Process Bypass
 ```bash
 cd "$HOME/OmniAgentStack"
 
-chmod +x install-interactive.sh
+chmod +x install-omni-agent-stack.sh
 
-./install-interactive.sh
+./install-omni-agent-stack.sh
 ```
 ---
 ## 🎛️ Menu Principal
