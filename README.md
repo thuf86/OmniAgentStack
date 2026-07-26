@@ -1,301 +1,515 @@
-# Omni Agent Stack
-
 <p align="center">
-  <img src="docs/logo.png" width="180">
+  <code>=============================== O M N I  A G E N T  S T A C K ===============================</code><br>
+  <b><i>Unified AI Agents, RAG, Automation & Local Intelligence Platform</i></b><br><br>
+  <img src="https://img.shields.io/badge/Version-1.0-green?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Claude%20Code-Supported-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/OpenAI%20Codex-Supported-black?style=for-the-badge&logo=openai">
+  <img src="https://img.shields.io/badge/License-Multiple-yellow?style=for-the-badge">
 </p>
 
-<p align="center">
+<!-- Adicione abaixo uma imagem ou banner do projeto -->
 
-**Uma plataforma unificada para Agentes de IA, Automação, Memória, RAG, Fluxos Inteligentes e Navegação Autônoma.**
+<!--
+<img width="100%" alt="Omni Agent Stack" src="URL_DA_IMAGEM" />
+-->
 
-[![License](https://img.shields.io/badge/License-Multiple-blue.svg)](#licensing)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-success.svg)]
-[![Claude Code](https://img.shields.io/badge/Claude-Code-orange.svg)]
-[![Codex](https://img.shields.io/badge/OpenAI-Codex-green.svg)]
+# 🤖 Omni Agent Stack
 
-</p>
+**Omni Agent Stack** é uma plataforma unificada para instalação, organização e integração de ferramentas open source voltadas a **Agentes de Inteligência Artificial**, **RAG**, **automação**, **memória persistente**, **navegação Web**, **extração de dados** e **execução local de modelos**.
 
----
+O projeto reúne dez ecossistemas importantes em um único monorepositório, mantendo cada componente isolado em sua própria estrutura e oferecendo scripts interativos para instalação no **Claude Code**, no **OpenAI Codex** ou em ambos.
 
-# Visão Geral
-
-O **Omni Agent Stack** é um **monorepositório agregador** que reúne algumas das principais tecnologias open source para desenvolvimento de Agentes de IA em uma única plataforma.
-
-O objetivo é simplificar a instalação, integração e utilização dessas ferramentas, oferecendo uma experiência única para pesquisadores, desenvolvedores e empresas.
-
-O projeto **não substitui** nenhum dos projetos originais.
-
-Ele atua como uma camada de integração, organização e automação.
+**Autor:** Romildo — [@thuf86](https://github.com/thuf86)
+🌐 **Website:** https://medium.com/@romildothuf
+📦 **Versão:** 1.0
 
 ---
 
-# Componentes
+## 📌 Visão Geral
 
-| Projeto | Finalidade |
-|----------|------------|
-| AnythingLLM | Plataforma de IA privada com suporte a múltiplos LLMs |
-| AutoGen | Framework para agentes colaborativos |
-| Browser Use | Navegação inteligente baseada em IA |
-| Crawl4AI | Crawling otimizado para aplicações de IA |
-| CrewAI | Orquestração de múltiplos agentes |
-| Firecrawl | Extração inteligente de conteúdo Web |
-| Langflow | Construção visual de pipelines LLM |
-| LocalAI | Execução local de modelos compatíveis com OpenAI |
-| Mem0 | Memória persistente para agentes |
-| RAGFlow | Plataforma completa para sistemas RAG |
+Diferente de uma simples coleção de links ou submódulos, o Omni Agent Stack foi desenvolvido para criar um ambiente centralizado e extensível para projetos de Inteligência Artificial.
 
----
+O projeto oferece:
 
-# Recursos
-
-- Instalação automática
-- Integração entre frameworks
-- Estrutura única
-- Atualização simplificada
-- Compatível com Claude Code
-- Compatível com OpenAI Codex
-- Skills compartilhadas
-- Agentes especializados
-- Organização em monorepositório
-- Scripts para Windows e Linux
-- Docker Compose quando disponível
-- Ambientes Python isolados
-- Instalação automática de dependências Node
-- Estrutura preparada para expansão
+* Download automatizado dos repositórios oficiais
+* Consolidação dos projetos em um único monorepositório
+* Instalação interativa para Windows e Linux
+* Skills especializadas para Claude Code e Codex
+* Subagentes dedicados a cada componente
+* Instalação individual ou conjunta dos projetos
+* Separação segura entre dependências Python, Node.js, Go e Docker
+* Registro de origem e commit de cada repositório
+* Estrutura preparada para integrações personalizadas
 
 ---
 
-# Estrutura
+## ✨ Principais Recursos
 
-```
+* 🧠 Dez projetos open source de Inteligência Artificial
+* 🤖 Agentes especializados por componente
+* 🧩 Skills compatíveis com Claude Code
+* ⚙️ Skills e instruções compatíveis com OpenAI Codex
+* 📦 Instalador interativo
+* 🪟 Suporte ao Windows e PowerShell
+* 🐧 Suporte ao Linux e Bash
+* 🐳 Detecção automática de Docker Compose
+* 🐍 Criação de ambientes virtuais Python isolados
+* 📜 Detecção de npm, pnpm e yarn
+* 🔄 Instalação individual ou completa
+* 🗂️ Estrutura organizada em monorepositório
+* 🔐 Preservação das licenças originais
+* 📍 Registro de origem em `SOURCES.lock.json`
+
+---
+
+## 🧩 Projetos Integrados
+
+| Projeto         | Finalidade                                                            |
+| --------------- | --------------------------------------------------------------------- |
+| **AnythingLLM** | Plataforma privada para documentos, agentes e múltiplos modelos de IA |
+| **AutoGen**     | Framework para criação de sistemas multiagentes                       |
+| **Browser Use** | Automação e navegação Web controladas por agentes de IA               |
+| **Crawl4AI**    | Web crawler otimizado para LLMs, agentes e pipelines RAG              |
+| **CrewAI**      | Orquestração de equipes de agentes especializados                     |
+| **Firecrawl**   | Extração, crawling e conversão de conteúdo Web                        |
+| **Langflow**    | Construção visual de fluxos e aplicações baseadas em LLM              |
+| **LocalAI**     | Execução local de modelos com API compatível com OpenAI               |
+| **Mem0**        | Camada de memória persistente para agentes                            |
+| **RAGFlow**     | Plataforma completa para Retrieval-Augmented Generation               |
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+```text
 OmniAgentStack/
-
 ├── components/
-│
+│   ├── anything-llm/
+│   ├── autogen/
+│   ├── browser-use/
+│   ├── crawl4ai/
+│   ├── crewai/
+│   ├── firecrawl/
+│   ├── langflow/
+│   ├── localai/
+│   ├── mem0/
+│   └── ragflow/
 ├── integrations/
-│
 ├── orchestrator/
-│
 ├── skills/
-│
 ├── claude-agents/
-│
-├── docs/
-│
 ├── scripts/
-│
-├── install.ps1
-├── install.sh
-├── download-and-merge.ps1
-├── download-and-merge.sh
-│
 ├── AGENTS.md
 ├── CLAUDE.md
-│
+├── SOURCES.lock.json
+├── download-and-merge.ps1
+├── download-and-merge.sh
+├── install-interactive.ps1
+├── install-interactive.sh
 └── README.md
 ```
 
 ---
 
-# Instalação
+## ⚙️ Requisitos
 
-## Windows
+### Windows
+
+* Windows 10 ou superior
+* PowerShell 5.1 ou superior
+* Git
+* Docker Desktop recomendado
+* Python 3.10 ou superior
+* Node.js LTS
+* Espaço em disco disponível para os componentes
+
+### Linux
+
+* Ubuntu, Debian, Fedora, Arch Linux ou distribuição compatível
+* Bash
+* Git
+* Docker e Docker Compose recomendados
+* Python 3.10 ou superior
+* Node.js LTS
+
+Nem todos os componentes exigem todas as dependências. O instalador identifica o método adequado conforme os arquivos encontrados em cada projeto.
+
+---
+
+## 📥 Download e Consolidação
+
+### Windows
+
+Abra o PowerShell na pasta que contém os scripts:
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process
+Set-ExecutionPolicy -Scope Process Bypass
 
-.\download-and-merge.ps1
+.\download-and-merge.ps1 -Destino "C:\OmniAgentStack"
+```
 
-.\install-interactive.ps1
+O script irá:
+
+1. Baixar os dez repositórios oficiais
+2. Armazená-los em `components`
+3. Registrar os commits em `SOURCES.lock.json`
+4. Criar skills e agentes especializados
+5. Remover os repositórios Git internos
+6. Inicializar um único repositório Git na raiz
+
+Para evitar erros relacionados ao limite de tamanho de caminhos do Windows, recomenda-se utilizar um caminho curto, como:
+
+```text
+C:\OmniAgentStack
+```
+
+### Linux
+
+```bash
+chmod +x download-and-merge.sh
+./download-and-merge.sh "$HOME/OmniAgentStack"
 ```
 
 ---
 
-## Linux
+## 📦 Instalação Interativa
+
+### Windows
+
+```powershell
+cd "C:\OmniAgentStack"
+
+Set-ExecutionPolicy -Scope Process Bypass
+
+.\install-interactive.ps1
+```
+
+### Linux
 
 ```bash
-chmod +x download-and-merge.sh
+cd "$HOME/OmniAgentStack"
 
 chmod +x install-interactive.sh
-
-./download-and-merge.sh
 
 ./install-interactive.sh
 ```
 
 ---
 
-# Instalação Interativa
+## 🎛️ Menu Principal
 
-O instalador permite:
+```text
+============================================
+       OMNI AGENT STACK - INSTALADOR
+============================================
 
+1. Instalar/preparar repositórios
+2. Instalar agents/skills apenas no Claude Code
+3. Instalar skills apenas no Codex
+4. Instalar agents/skills no Claude Code e Codex
+5. Fazer tudo: repositórios + Claude + Codex
+0. Sair
 ```
-1 - Instalar os componentes
-
-2 - Instalar apenas Claude Code
-
-3 - Instalar apenas Codex
-
-4 - Instalar Claude Code + Codex
-
-5 - Instalar tudo
-```
-
-Também é possível instalar apenas um framework específico.
 
 ---
 
-# Compatibilidade
+## 📚 Menu de Componentes
 
-- Windows 10+
-- Windows Server
-- Ubuntu
-- Debian
-- Fedora
-- Arch
-- WSL2
-- Docker
-
----
-
-# Objetivo
-
-Este projeto busca facilitar a criação de soluções utilizando múltiplos frameworks de IA em conjunto.
-
-Ao invés de instalar e configurar diversas ferramentas manualmente, o Omni Agent Stack oferece um ambiente centralizado, organizado e preparado para evolução.
-
----
-
-# Licenciamento
-
-Este repositório **não altera a licença dos projetos incorporados**.
-
-Cada componente permanece sob sua licença original.
-
-Consulte a pasta:
-
+```text
+ 1. AnythingLLM
+ 2. AutoGen
+ 3. Browser Use
+ 4. Crawl4AI
+ 5. CrewAI
+ 6. Firecrawl
+ 7. Langflow
+ 8. LocalAI
+ 9. Mem0
+10. RAGFlow
+11. Instalar/preparar todos
+ 0. Voltar
 ```
+
+Cada componente pode ser preparado individualmente ou em conjunto.
+
+---
+
+## 🤖 Integração com Claude Code
+
+Ao selecionar a instalação para Claude Code, os arquivos são copiados para:
+
+```text
+Windows:
+C:\Users\SEU_USUARIO\.claude\skills
+C:\Users\SEU_USUARIO\.claude\agents
+
+Linux:
+~/.claude/skills
+~/.claude/agents
+```
+
+Cada projeto possui:
+
+* Um skill especializado
+* Um subagente dedicado
+* Instruções para leitura da documentação
+* Regras para preservação da arquitetura upstream
+* Orientações para execução de testes
+* Regras para proteção de credenciais e segredos
+
+---
+
+## 🧠 Integração com OpenAI Codex
+
+Ao selecionar a instalação para Codex, os arquivos são copiados para:
+
+```text
+Windows:
+C:\Users\SEU_USUARIO\.codex\skills
+C:\Users\SEU_USUARIO\.codex\AGENTS.md
+
+Linux:
+~/.codex/skills
+~/.codex/AGENTS.md
+```
+
+O arquivo `AGENTS.md` fornece instruções permanentes para atuação dentro do monorepositório.
+
+---
+
+## 🔧 Estratégia de Instalação
+
+O instalador identifica automaticamente o método mais seguro disponível.
+
+### Docker Compose
+
+Quando um arquivo Compose é encontrado, o instalador oferece:
+
+```bash
+docker compose build
+```
+
+### Python
+
+Quando o projeto possui `pyproject.toml` ou `requirements.txt`, é criado um ambiente isolado:
+
+```text
+components/<projeto>/.venv
+```
+
+### Node.js
+
+O instalador identifica os gerenciadores com base nos lockfiles:
+
+* `pnpm-lock.yaml` → pnpm
+* `yarn.lock` → yarn
+* `package-lock.json` → npm
+* sem lockfile → npm install
+
+Isso evita misturar as dependências dos diferentes projetos na raiz do monorepositório.
+
+---
+
+## 🧱 Arquitetura
+
+Os projetos oficiais são mantidos dentro de:
+
+```text
+components/
+```
+
+Novas integrações devem ser desenvolvidas em:
+
+```text
+integrations/
+```
+
+Serviços de coordenação, roteamento e automação devem ser desenvolvidos em:
+
+```text
+orchestrator/
+```
+
+Essa separação reduz o acoplamento e facilita futuras atualizações dos componentes.
+
+---
+
+## 🔄 Atualizações
+
+Cada download registra:
+
+* Repositório oficial
+* Nome do componente
+* Commit baixado
+* Data da operação
+
+Essas informações ficam armazenadas em:
+
+```text
+SOURCES.lock.json
+```
+
+O arquivo permite rastrear exatamente qual versão de cada projeto foi incorporada ao monorepositório.
+
+---
+
+## 🛡️ Segurança
+
+* Nunca armazene tokens, senhas ou chaves no Git
+* Utilize arquivos `.env` locais
+* Preserve os arquivos `.env.example`
+* Revise containers antes de expor portas publicamente
+* Utilize apenas modelos, extensões e imagens confiáveis
+* Verifique as permissões de arquivos e volumes
+* Execute automações Web apenas em ambientes autorizados
+
+---
+
+## 🙏 Créditos e Projetos Originais
+
+O Omni Agent Stack existe graças ao trabalho das comunidades e mantenedores dos projetos abaixo.
+
+### AnythingLLM
+
+* Repositório: [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)
+* Organização: Mintplex Labs
+* Diretório local: `components/anything-llm`
+
+### AutoGen
+
+* Repositório: [microsoft/autogen](https://github.com/microsoft/autogen)
+* Organização: Microsoft
+* Diretório local: `components/autogen`
+
+### Browser Use
+
+* Repositório: [browser-use/browser-use](https://github.com/browser-use/browser-use)
+* Organização: Browser Use
+* Diretório local: `components/browser-use`
+
+### Crawl4AI
+
+* Repositório: [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
+* Mantenedores: Crawl4AI Contributors
+* Diretório local: `components/crawl4ai`
+
+### CrewAI
+
+* Repositório: [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)
+* Organização: CrewAI
+* Diretório local: `components/crewai`
+
+### Firecrawl
+
+* Repositório: [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)
+* Organização: Firecrawl
+* Diretório local: `components/firecrawl`
+
+### Langflow
+
+* Repositório: [langflow-ai/langflow](https://github.com/langflow-ai/langflow)
+* Organização: Langflow
+* Diretório local: `components/langflow`
+
+### LocalAI
+
+* Repositório: [mudler/LocalAI](https://github.com/mudler/LocalAI)
+* Mantenedores: LocalAI Contributors
+* Diretório local: `components/localai`
+
+### Mem0
+
+* Repositório: [mem0ai/mem0](https://github.com/mem0ai/mem0)
+* Organização: Mem0
+* Diretório local: `components/mem0`
+
+### RAGFlow
+
+* Repositório: [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+* Organização: InfiniFlow
+* Diretório local: `components/ragflow`
+
+---
+
+## ⚖️ Licenciamento
+
+O Omni Agent Stack é um projeto agregador e não altera a licença dos componentes incorporados.
+
+Cada projeto permanece sujeito aos seus próprios termos, licenças, avisos de copyright e regras de redistribuição.
+
+Antes de utilizar, modificar ou redistribuir qualquer componente, consulte:
+
+```text
 components/<projeto>/LICENSE
 ```
 
-para verificar a licença específica.
+Também é recomendada a manutenção dos seguintes arquivos na raiz:
+
+```text
+THIRD_PARTY_NOTICES.md
+ATTRIBUTION.md
+LICENSES/
+```
+
+A licença do código original do Omni Agent Stack deve ser definida separadamente das licenças dos projetos incorporados.
 
 ---
 
-# Créditos
+## 📢 Aviso Legal
 
-Este projeto somente é possível graças ao excelente trabalho das equipes responsáveis pelos projetos abaixo.
+O Omni Agent Stack:
 
-## AnythingLLM
+* Não substitui os projetos originais
+* Não reivindica autoria sobre os componentes incorporados
+* Não é patrocinado oficialmente pelos respectivos mantenedores
+* Não representa uma distribuição oficial dos projetos
+* Atua exclusivamente como ferramenta de agregação, instalação e organização
 
-https://github.com/Mintplex-Labs/anything-llm
-
-Copyright © Mintplex Labs
-
----
-
-## AutoGen
-
-https://github.com/microsoft/autogen
-
-Copyright © Microsoft
+Todos os nomes, marcas e códigos pertencem aos seus respectivos autores e organizações.
 
 ---
 
-## Browser Use
+## 🤝 Contribuindo
 
-https://github.com/browser-use/browser-use
+Contribuições são bem-vindas.
 
-Copyright © Browser Use Contributors
+Para alterações significativas:
 
----
-
-## Crawl4AI
-
-https://github.com/unclecode/crawl4ai
-
-Copyright © Crawl4AI Contributors
+1. Abra uma Issue descrevendo a proposta
+2. Crie um fork do projeto
+3. Desenvolva em uma branch separada
+4. Execute os testes relacionados
+5. Envie um Pull Request detalhado
 
 ---
 
-## CrewAI
+## 🗺️ Roadmap
 
-https://github.com/crewAIInc/crewAI
-
-Copyright © CrewAI Contributors
-
----
-
-## Firecrawl
-
-https://github.com/firecrawl/firecrawl
-
-Copyright © Firecrawl Contributors
-
----
-
-## Langflow
-
-https://github.com/langflow-ai/langflow
-
-Copyright © Langflow Contributors
+* Interface Web unificada
+* Orquestrador central de agentes
+* Atualização automatizada dos componentes
+* Catálogo de skills
+* Marketplace de agentes
+* API REST centralizada
+* Suporte a MCP
+* Dashboard de serviços
+* Observabilidade e logs
+* Gerenciamento de modelos locais
+* Perfis de instalação
+* Backup e restauração de configurações
 
 ---
 
-## LocalAI
+## ⭐ Apoie o Projeto
 
-https://github.com/mudler/LocalAI
+Caso o Omni Agent Stack seja útil para seu ambiente de desenvolvimento, considere deixar uma estrela no repositório.
 
-Copyright © LocalAI Contributors
-
----
-
-## Mem0
-
-https://github.com/mem0ai/mem0
-
-Copyright © Mem0 Contributors
+Também visite e apoie os projetos originais utilizados pela plataforma.
 
 ---
 
-## RAGFlow
-
-https://github.com/infiniflow/ragflow
-
-Copyright © InfiniFlow Contributors
-
----
-
-# Aviso Importante
-
-Este projeto é um **agregador e integrador**.
-
-Ele **não é afiliado, patrocinado ou mantido** pelos autores dos projetos listados acima.
-
-Todos os direitos sobre cada componente pertencem aos seus respectivos autores.
-
-Caso algum mantenedor deseje qualquer alteração referente aos créditos, estrutura ou distribuição de seu projeto neste repositório, será um prazer atender à solicitação.
-
----
-
-# Roadmap
-
-- Interface Web única
-- Orquestrador Universal
-- Atualizações automáticas
-- Marketplace de Skills
-- Marketplace de Agentes
-- Plugins
-- Observabilidade
-- Dashboard
-- API REST
-- API MCP
-- Integração com OpenAI
-- Integração com Anthropic
-- Integração com Ollama
-- Integração com LocalAI
-- Integração com LM Studio
-
----
-
-# Desenvolvido com ❤️ pela comunidade Open Source.
+<p align="center">
+  Desenvolvido por <b>Romildo — thuf86</b><br>
+  Construído com respeito e reconhecimento à comunidade open source.
+</p>
