@@ -20,9 +20,9 @@ Também visite e apoie os projetos originais utilizados pela plataforma.
 
 # 🤖 Omni Agent Stack
 
-**Omni Agent Stack** é uma plataforma unificada para instalação, organização e integração de ferramentas open source voltadas a **Agentes de Inteligência Artificial**, **RAG**, **automação**, **memória persistente**, **navegação Web**, **extração de dados** e **execução local de modelos**.
+**Omni Agent Stack** é uma plataforma unificada para instalação, organização e integração de ferramentas open source voltadas a Agentes de Inteligência Artificial, RAG, automação, memória persistente, navegação Web, extração de dados e execução local de modelos.
 
-O projeto reúne dez ecossistemas importantes em um único monorepositório, mantendo cada componente isolado em sua própria estrutura e oferecendo scripts interativos para instalação no **Claude Code**, no **OpenAI Codex** ou em ambos.
+O projeto reúne os **10 projetos open source mais bem avaliados e reconhecidos pela comunidade** em um único monorepositório, mantendo cada componente isolado em sua própria estrutura e oferecendo scripts interativos para instalação no **Claude Code**, no **OpenAI Codex** ou em ambos. Essa abordagem simplifica a configuração do ambiente, preserva a independência de cada ecossistema e facilita a criação de fluxos completos para desenvolvimento, experimentação e produção de agentes de IA.
 
 **Autor:** Romildo — [@thuf86](https://github.com/thuf86)
 🌐 **Website:** https://medium.com/@romildothuf
