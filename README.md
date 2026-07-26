@@ -434,24 +434,6 @@ O Omni Agent Stack existe graças ao trabalho das comunidades e mantenedores dos
 
 ## ⚖️ Licenciamento
 
-O Omni Agent Stack é um projeto agregador e não altera a licença dos componentes incorporados.
-
-Cada projeto permanece sujeito aos seus próprios termos, licenças, avisos de copyright e regras de redistribuição.
-
-Antes de utilizar, modificar ou redistribuir qualquer componente, consulte:
-
-```text
-components/<projeto>/LICENSE
-```
-
-Também é recomendada a manutenção dos seguintes arquivos na raiz:
-
-```text
-THIRD_PARTY_NOTICES.md
-ATTRIBUTION.md
-LICENSES/
-```
-
 A licença do código original do Omni Agent Stack deve ser definida separadamente das licenças dos projetos incorporados.
 
 ---
@@ -467,20 +449,6 @@ O Omni Agent Stack:
 * Atua exclusivamente como ferramenta de agregação, instalação e organização
 
 Todos os nomes, marcas e códigos pertencem aos seus respectivos autores e organizações.
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas.
-
-Para alterações significativas:
-
-1. Abra uma Issue descrevendo a proposta
-2. Crie um fork do projeto
-3. Desenvolva em uma branch separada
-4. Execute os testes relacionados
-5. Envie um Pull Request detalhado
 
 ---
 
