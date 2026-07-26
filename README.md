@@ -8,11 +8,15 @@
   <img src="https://img.shields.io/badge/License-Multiple-yellow?style=for-the-badge">
 </p>
 
-<!-- Adicione abaixo uma imagem ou banner do projeto -->
+## 📸 Interface de Instalação
 
-<!--
-<img width="100%" alt="Omni Agent Stack" src="URL_DA_IMAGEM" />
--->
+<p align="center">
+  <img src="./assets/install_01.png" width="100%" alt="Menu principal do instalador Omni Agent Stack">
+</p>
+
+<p align="center">
+  <img src="./assets/install_02.png" width="100%" alt="Seleção de componentes do Omni Agent Stack">
+</p>
 
 # 🤖 Omni Agent Stack
 
